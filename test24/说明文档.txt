@@ -1,0 +1,10 @@
+前端首页(localhost:3000/dex/dex)   --demo.jade-->demo.js--->news.js
+后台页面(localhost:3000/back/back)  --index.jade-->demo2.js--->index.js
+        layout.jade---首页
+               top.jade-首页左侧
+               index.jade首页右侧{add增加，change修改，delete删除，具体操作:demo2.js->user.js->userDao.js}
+        
+        
+
+连接数据库 conf-db.js
+增删改查数据库 dao(文件夹)

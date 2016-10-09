@@ -1,0 +1,60 @@
+extends layout
+
+block content
+    div#content
+        div#addnews 增加
+        table(cellspacing="0", cellpadding="0")
+            tbody#tbody
+                th 新闻type
+                th 新闻id
+                th#news1 新闻title
+                th#news2 新闻img
+                th#news3 新闻time
+                th 修改
+                th 删除
+        div#more 抱歉本部分未开通······
+        div#add
+            h3 增加新闻
+            form
+              div.form-row
+                label
+                  span newstype:
+                  select(name='newstype',required='required',id='type')
+                    option(value='请选择') 请选择...           
+                    option(value='1') 1
+                    option(value='2') 2   
+                    option(value='3') 3
+                    option(value='4') 4
+              div.form-row
+                label
+                  span newstitle:
+                  input(type='text',name='newstitle',id='title')
+              div.form-row
+                label
+                  span newsimg:
+                  input(type='text',name='newsimg',id='img')
+              div.form-row
+                input#addsub(type='submit')
+        div#change
+            h3 修改新闻
+            form
+              div.form-row
+                label
+                  span newstype:
+                  select(name='newstype',required='required',id='type2')
+                    option(value='请选择') 请选择...           
+                    option(value='1') 1
+                    option(value='2') 2   
+                    option(value='3') 3
+                    option(value='4') 4
+              div.form-row
+                label
+                  span newstitle:
+                  input(type='text',name='newstitle',id='title2')
+              div.form-row
+                label
+                  span newsimg:
+                  input(type='text',name='newsimg',id='img2')
+              div.form-row
+                input#editsub(type='submit')
+        

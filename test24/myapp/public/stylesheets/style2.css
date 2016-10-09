@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding:0;
+	min-width: 1500px;
+	font-size: 14px;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#menu{
+	float: left;
+}
+#menu li{
+	width: 150px;
+	height: 100px;
+	background: #1abc9c;
+	border-bottom: 1px solid rgba(233, 233, 233, 0.22);;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+	list-style-type: none;
+	color: #fff;
+}
+#menu li:hover{
+	box-shadow: 0 2px 3px #999;
+	color:#999;
+}
+#content{
+	float:left;
+	margin-left: 30px;
+	position: relative;
+}
+#content a{
+    width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #1abc9c;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+}
+table{
+	border-color: #1abc9c;
+}
+table th{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid rgba(26, 188, 156, 0.32);
+}
+table td{
+	width: 100px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid rgba(26, 188, 156, 0.32);
+}
+#news1{
+	width: 300px;
+	line-height:30px;
+}
+#news2{
+	width: 110px;
+}
+#news3{
+	width: 180px;
+}
+#addnews{
+	margin-left: 910px;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #1abc9c;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+}
+#more{
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	color: #fff;
+	background: #1abc9c;
+	margin:100px 300px;
+	display: none;
+}
+#add,#change{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top:100px;
+    left: 200px;
+    z-index: 200;
+    background: rgba(26, 188, 156, 0.99);
+    display: none;
+}
+#add h3,#change h3{
+	text-align: center;
+	font-weight: bold;
+	color:#fff;
+	font-size: 15px
+}
+#add form,#change form{
+	width: 500px;
+	height: 300px; 
+	margin:0 auto;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+#add div,#change div{
+	height: 50px;
+}
+#add div span,#change div span{
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	text-align:left; 
+}
+#add div input,#change div input{
+	width: 300px;
+	height: 30px;
+}
+#type,#type2{
+	width: 300px;
+	height: 36px;
+}
+.form-row{
+	margin-top: 5px;
+}
+#add #addsub,#change #editsub{
+	width: 80px;
+	height: 35px;
+	text-align: center;
+	line-height: 30px;
+	background: #fff;
+}

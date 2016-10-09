@@ -1,0 +1,26 @@
+doctype 5
+html
+    head
+        title=更新新闻资料
+        link(rel='stylesheet', href='/stylesheets/update.css')
+    body
+        h1 更新新闻资料
+        form(method='post', action='/p/users/updateUser')
+          div.form-row
+            label
+              span newsid:
+              input(type='text',name='newsid')
+          div.form-row
+            label
+              span newstitle:
+              input(type='text',name='newstitle')
+          div.form-row
+            label
+              span newsimg:
+              input(type='text',name='newsimg')
+          div.form-row
+            label
+              span addtime:
+              input(type='text',name='addtime')
+          div.form-row
+            input(type='submit')
